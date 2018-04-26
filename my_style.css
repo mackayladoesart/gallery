@@ -1,0 +1,251 @@
+p{
+    font-family: 'Raleway' !important;
+    font-size: 13pt !important;
+    -webkit-font-smoothing: antialiased;
+}
+
+.navbar{
+    padding-left: 50px;
+    font-size: 18px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.logo{
+    height:35px;
+    width:auto;
+    margin:10px;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    font-family: 'Raleway';
+    vertical-align: middle;
+}
+
+.dropdown:hover .dropdown-menu{
+    display:block;
+}
+
+.dropdown-item{
+    font-size: 15px;
+    font-family: 'Raleway';
+}
+
+.active{
+    color: #daa627;
+}
+
+.sidebar{
+    right:0;
+    width: 100px;
+    float: right;
+    padding-top: 125px;
+    font-family: 'Raleway';
+    background: none;
+    box-shadow: none; 
+    position: fixed;
+}
+
+.FAQside{
+    width: 130px;
+}
+
+.w3-bar-item{
+    margin-top:10px;
+    color: gray;
+}
+
+.activesidebar{
+    color: #daa627;
+}
+
+
+.galleryrow{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.slideimg{
+    height: 650px;
+}
+
+video{
+    width: 100%;
+}
+
+.galleryrow{
+    padding-top: 10px;
+    width: 90%;
+}
+
+.gallerycolumn{
+    width: 33%;
+  padding: 10px;
+}
+
+.gallerycolumn img{
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+}
+
+.modal-content{
+    background: black;
+}
+
+.mySlides{
+    align-self: center;
+}
+
+.prev{
+    color: white!important;
+}
+
+.next{
+    color: white!important;
+}
+
+.gold{
+    color:#daa627;
+}
+
+.bio{
+    padding-top: 20px;
+    text-align: left;
+    text-indent: 60px;
+}
+
+.aboutimg{
+    width: 50%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom:10px;
+}
+
+.try{
+    width: 50.5% !important;
+    align-self: center!important;
+    margin: auto;    
+}
+
+.dropshadow{
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.aboutcontainer{
+    margin-left: 25px;
+    margin-top: 75px;
+    margin-right: 130px;
+}
+
+.aboutsquare{
+    margin-bottom: 25px;
+    padding: 50px;
+}
+
+.tycontent{
+    max-height: 150px;
+    width: auto;
+    max-width: none;
+}
+
+.indent{
+    text-align: left;
+    text-indent: 40px;
+}
+
+.Q{
+    align-items: left;
+}
+
+.link{
+    color: #daa627;
+}
+
+.bg-light{
+    background-color:#6b6e71 !important;
+}
+
+.bg-evenlighter{
+    background-color: #f2f3f8 !important;
+}
+
+.footer{
+    height: 20px;
+}
+
+.text-muted{
+    font-size: 10pt;
+}
+
+.smlogo{
+    height:45px;
+    width:auto;
+    text-decoration:none!important;
+    margin: 10px;
+}
+
+.noline:hover{
+    text-decoration:none!important;
+    display: hidden;
+}
+
+.youtube{
+    height:35px;
+    width:auto;
+}
+
+.deviantart{
+    height:55px;
+    width:auto;
+}
+
+.sm{
+    text-align: center;
+}
+
+.footer{
+    
+    padding: 20px;
+}
+
+.footer-list{
+    text-align: center;
+    list-style-position: inside;
+    padding-bottom: 15px;
+}
+
+.privacy-policy-list{
+    text-align:right;
+    list-style-position: inside;
+}
+
+@media screen and (max-width: 800px) {
+  .gallerycolumn {
+    flex: 50%;
+    max-width: 45%;
+  }
+    .try{
+        width: 100% !important;
+    }
+    .aboutimg{
+        width: 100%;
+    }
+    .col-6{
+        flex: 0 0 100%!important;
+        max-width: 100%!important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+  .gallerycolumn {
+    flex: 100%;
+    max-width: 90%;
+  }
+}
